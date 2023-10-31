@@ -5,22 +5,6 @@ import (
 	"strconv"
 )
 
-func main() {
-	// var num int
-	// fmt.Printf("Enter a number : ")
-	// fmt.Scanf("%d", &num)
-	// // evenOrOdd(num)
-	// fmt.Printf("%s", fizzBuzz(num))
-
-	// switchCase()
-	// forLoop()
-	// whileLoop()
-	// infiniteLoop()
-	// array()
-	slice()
-
-}
-
 func slice() {
 	// empty slice
 	var list []int
@@ -130,4 +114,20 @@ func fizzBuzz(n int) string {
 		return "Buzz"
 	}
 	return strconv.Itoa(n)
+}
+
+func Bmain() {
+	// var num int
+	// fmt.Printf("Enter a number : ")
+	// fmt.Scanf("%d", &num)
+	// // evenOrOdd(num)
+	// fmt.Printf("%s", fizzBuzz(num))
+
+	// switchCase()
+	// forLoop()
+	// whileLoop()
+	// infiniteLoop()
+	// array()
+	slice()
+
 }
