@@ -31,7 +31,7 @@ func weekDay(day int) bool {
 func av(a, b, c int) float32 {
 	return float32(a+b+c) / 3
 }
-func main() {
+func Omain() {
 
 	q, w, e := 9, 7, 8
 
@@ -84,7 +84,28 @@ func main() {
 	// Case list
 	switch x {
 	case 1, 2, 3:
-		fmt.Println("123")
+		fmt.Println("1243")
+	}
+
+	// Loops
+	for i := 0; i < 10; i++ {
+		fmt.Println(i)
+	}
+
+	// while loop
+	var j = 0
+	for j < 5 {
+		j++
+		fmt.Println(j)
+	}
+
+	// Infinite Loop
+	for {
+		j++
+		if j == 10 {
+			fmt.Println("Finished")
+			break
+		}
 	}
 
 }

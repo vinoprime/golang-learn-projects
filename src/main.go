@@ -128,6 +128,6 @@ func Bmain() {
 	// whileLoop()
 	// infiniteLoop()
 	// array()
-	slice()
+	// slice()
 
 }
