@@ -1,8 +1,8 @@
-package main
+package basics
 
 import "fmt"
 
-func Vmain() {
+func Variables() {
 	var my_name = "Vio"
 	fmt.Println(my_name)
 

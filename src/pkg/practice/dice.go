@@ -1,4 +1,4 @@
-package main
+package practice
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ func roll(sides int) int {
 	return rand.Intn(sides) + 1
 }
 
-func Dmain() {
+func Dice() {
 
 	fmt.Println("Main")
 

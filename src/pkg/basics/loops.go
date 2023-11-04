@@ -1,10 +1,10 @@
-package main
+package basics
 
 import (
 	"fmt"
 )
 
-func Lmain() {
+func Loop() {
 
 	fmt.Println("Main")
 

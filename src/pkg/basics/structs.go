@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -48,7 +48,7 @@ func printInfo(r Rectangle) {
 	fmt.Println("Perimeter", perimeter(r))
 }
 
-func Stmain() {
+func Structs() {
 
 	data := Sample{
 		field: "Hello",

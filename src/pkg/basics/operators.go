@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -31,7 +31,7 @@ func weekDay(day int) bool {
 func av(a, b, c int) float32 {
 	return float32(a+b+c) / 3
 }
-func Omain() {
+func Operators() {
 
 	q, w, e := 9, 7, 8
 

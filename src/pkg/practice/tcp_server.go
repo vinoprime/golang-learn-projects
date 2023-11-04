@@ -1,4 +1,4 @@
-package main
+package practice
 
 import (
 	"bufio"
@@ -7,7 +7,7 @@ import (
 	"net"
 )
 
-func Cmain() {
+func StartServer() {
 
 	li, err := net.Listen("tcp", ":8080")
 

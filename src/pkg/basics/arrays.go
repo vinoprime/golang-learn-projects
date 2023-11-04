@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -40,7 +40,7 @@ func printStats(list [4]Product) {
 	fmt.Println("Total cost", cost)
 }
 
-func main() {
+func Arrays() {
 	fmt.Println("Array")
 
 	// Declaration sytnatx

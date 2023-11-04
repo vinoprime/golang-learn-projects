@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -21,7 +21,7 @@ func greet(name string) {
 func hi(name string) string {
 	return "Hi" + name
 }
-func Fmain() {
+func Functions() {
 	s := double(2)
 	disp()
 
