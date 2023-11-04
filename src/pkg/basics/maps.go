@@ -2,6 +2,39 @@ package basics
 
 import "fmt"
 
+const (
+	Online      = 0
+	Offline     = 1
+	Maintenance = 2
+	Retired     = 3
+)
+
+func printServerStatus(servers map[string]int) {
+	fmt.Println("\n There are", len(servers), "servers")
+
+	stats := make(map[int]int)
+	for _, status := range servers {
+		switch status {
+		case Online:
+			stats[Online] += 1
+		case Offline:
+			stats[Offline] += 1
+		case Maintenance:
+			stats[Maintenance] += 1
+		case Retired:
+			stats[Retired] += 1
+		default:
+			panic("unhandled server status")
+		}
+	}
+
+	fmt.Println(stats[Online], "server are online")
+	fmt.Println(stats[Offline], "server are Offline")
+	fmt.Println(stats[Maintenance], "server are Maintenance")
+	fmt.Println(stats[Retired], "server are Retired")
+	fmt.Println(stats[Online], "server are online")
+}
+
 func Maps() {
 
 	/*  Syntax
@@ -55,8 +88,27 @@ func Maps() {
 		totalitems += amount
 	}
 
-	fmt.Println("There are ", totalitems)
+	fmt.Println("There are total items ", totalitems)
 
 	// --- Chalenge
+
+	servers := []string{"darkstart", "aiur", "omicron", "last"}
+
+	serverStatus := make(map[string]int)
+
+	for _, server := range servers {
+		serverStatus[server] = Online
+	}
+
+	printServerStatus(serverStatus)
+
+	serverStatus["darkstart"] = Retired
+	serverStatus["aiur"] = Offline
+	printServerStatus(serverStatus)
+
+	for server, _ := range serverStatus {
+		serverStatus[server] = Maintenance
+	}
+	printServerStatus(serverStatus)
 
 }
