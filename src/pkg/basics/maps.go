@@ -57,4 +57,6 @@ func Maps() {
 
 	fmt.Println("There are ", totalitems)
 
+	// --- Chalenge
+
 }
