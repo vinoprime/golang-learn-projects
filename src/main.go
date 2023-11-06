@@ -13,6 +13,10 @@ func main() {
 	// basics.Slices()
 	// basics.Range()
 	// practice.StartServer()
-	basics.Maps()
+	// basics.Maps()
+	// basics.Pointers()
+	// basics.Iota()
+	basics.VariadicFunc()
+	// practice.LibraryMain()
 
 }
