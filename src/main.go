@@ -1,13 +1,10 @@
 package main
 
-import (
-	"golearn/src/pkg/basics"
-	"golearn/src/pkg/msg"
-)
+import solid "golearn/src/pkg/soild"
 
 func main() {
 
-	msg.Hi()
+	// msg.Hi()
 	// display.Display("Hello from Disp")
 	// msg.Exciting("an exciting")
 	// basics.Slices()
@@ -16,7 +13,9 @@ func main() {
 	// basics.Maps()
 	// basics.Pointers()
 	// basics.Iota()
-	basics.VariadicFunc()
+	// basics.VariadicFunc()
 	// practice.LibraryMain()
+
+	solid.Solid()
 
 }
